@@ -2,16 +2,19 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-MagicOnion.Client/[Ll]ibrary/
-MagicOnion.Client/[Tt]emp/
-MagicOnion.Client/[Oo]bj/
-MagicOnion.Client/[Bb]uild/
-MagicOnion.Client/[Bb]uilds/
-MagicOnion.Client/[Ll]ogs/
-MagicOnion.Client/[Mm]emoryCaptures/
-MagicOnion.Client/.vscode
+MagicOnionTest.Client/[Ll]ibrary/
+MagicOnionTest.Client/[Tt]emp/
+MagicOnionTest.Client/[Oo]bj/
+MagicOnionTest.Client/[Bb]uild/
+MagicOnionTest.Client/[Bb]uilds/
+MagicOnionTest.Client/[Ll]ogs/
+MagicOnionTest.Client/[Mm]emoryCaptures/
+MagicOnionTest.Client/.vscode
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+MagicOnionTest.Server/obj
+MagicOnionTest.Server/bin
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
